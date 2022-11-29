@@ -1,1 +1,0 @@
-create or replace view cicd_test_view as select * from svv_table_info;
