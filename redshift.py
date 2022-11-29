@@ -1,7 +1,7 @@
 import psycopg2
 def handler(event,context):
     conn = psycopg2.connect(
-        host="redshift-cluster-1.cpiazh88ds78.us-east-1.redshift.amazonaws.com:5439/dev",
+        host="redshift-cluster-1.cpiazh88ds78.us-east-1.redshift.amazonaws.com",
         database="dev",
         user="awsuser",
         port=5439,
