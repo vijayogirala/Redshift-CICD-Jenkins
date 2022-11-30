@@ -5,7 +5,7 @@ def handler(event,context):
         database="dev",
         user="awsuser",
         port=5439,
-        password="Admin12345")
+        password="Admin1234")
     cur = conn.cursor()
     print("connection succussfully established")
     cur.execute("select * from users")
