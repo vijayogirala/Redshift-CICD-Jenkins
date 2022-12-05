@@ -1,6 +1,6 @@
 import psycopg2
 conn = psycopg2.connect(
-    host="redshift-cluster-jk.cpiazh88ds78.us-east-1.redshift.amazonaws.com",
+    host="redshift-cluster-soundarya.cpiazh88ds78.us-east-1.redshift.amazonaws.com",
     database="dev",
     user="awsuser",
     port=5439,
