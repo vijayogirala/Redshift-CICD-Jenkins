@@ -6,7 +6,7 @@ conn = psycopg2.connect(
     port=5439,
     password="Admin12345")
 cur = conn.cursor()
-cur.execute("CREATE TABLE testrds.emp(id serial PRIMARY KEY, num integer, data varchar);")
+cur.execute("CREATE TABLE emp(id serial PRIMARY KEY, num integer, data varchar);")
 print("connection succussfully established")
 #cur.execute("select city from users")
 print(cur.fetchall())
